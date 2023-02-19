@@ -1,0 +1,19 @@
+.navbar{
+    background-color:aliceblue ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 5rem;
+}
+.logo{
+
+}
+.input{
+    height: 2rem;
+}
+.logo{
+    color: rgb(51, 50, 50);
+    font-size: 2rem;
+    background-color: lightgray;
+    margin-right: 0.5rem;
+}
