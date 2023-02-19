@@ -1,0 +1,55 @@
+.main {
+    padding: 1rem;
+}
+
+.heading {
+    padding-inline: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.heading .title{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.heading .viewer {
+    display: flex;
+    justify-content: end;
+    color: orange;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .book {
+    width: 90%;
+    margin-inline: 2rem;
+    display: flex;
+}
+
+.card .book .information {
+    margin-left: 0.8rem;
+}
+
+.card .book .title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.card .book .author{
+    font-size: 1rem;
+    color: grey;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+
+.card .book .price{
+    color: darkblue;
+    font-size: 25px;
+    bottom: 0;
+}

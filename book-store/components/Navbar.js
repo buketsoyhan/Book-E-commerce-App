@@ -9,8 +9,6 @@ import {
   faShoppingCart,
 } from "@fortawesome/free-solid-svg-icons";
 
-
-
 const Navbar = () => {
     const [searchText, setSearchText] = useState("");
   return (
