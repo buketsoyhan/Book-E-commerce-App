@@ -1,0 +1,113 @@
+.board {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.board .picture {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.panel {
+    margin: 0;
+    padding: 0;
+    margin-inline: auto;
+}
+
+.panel .elements .logo {
+    display: flex;
+    justify-content: center;
+}
+
+.panel .elements .header .heading {
+    color: rgba(9, 9, 55, 0.6);
+    font-size: 24px;
+    font-weight: 600;
+    margin-block: 5px;
+    line-height: 32.78px;
+}
+
+.panel .elements .header .information {
+    color: #090937;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 43.71px;
+    margin-block: 5px;
+    margin-bottom: 50px;
+}
+
+.panel .elements .label {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #090937;
+    margin-block: 5px;
+}
+
+.panel .elements .input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+
+    width: 400px;
+    height: 60px;
+    left: 880px;
+    top: 473px;
+
+    background: #F4F4FF;
+    border-radius: 4px;
+}
+
+.panel .elements .orangebtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
+
+    width: 400px;
+    height: 60px;
+    left: 880px;
+    top: 854px;
+
+    background: #EF6B4A;
+    border-radius: 4px;
+}
+
+.panel .elements .orangebtn .buttontxt {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.panel .elements .whitebtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
+
+    width: 400px;
+    height: 60px;
+    left: 880px;
+    top: 854px;
+
+    background: white;
+    border-radius: 4px;
+}
+
+.panel .elements .whitebtn .buttontxt {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #6251DD
+}
