@@ -1,5 +1,5 @@
 import connectMongo from "database/connection";
-import { postUser,getUsers } from "../../../../database/controller";
+import { postUser,getUserByEmail } from "../../../../database/controller";
 export default async function handler(req, res) {
   connectMongo().catch(() =>
     res.status(405).json({ error: "error in connection" })
@@ -8,7 +8,7 @@ export default async function handler(req, res) {
 
   switch (method) {
     case 'GET':
-      getUsers(req, res);
+        getUserByEmail(req, res);
       break;
     case 'POST':
       postUser(req, res);

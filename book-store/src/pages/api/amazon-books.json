@@ -84,6 +84,7 @@
       "_id": 7,
       "title": "Zend Framework in Action",
       "isbn": "1933988320",
+      "price": "15.75",
       "pageCount": 432,
       "publishedDate": {
         "$date": "2008-12-01T00:00:00.000-0800"
@@ -99,6 +100,7 @@
       "_id": 8,
       "title": "Flex on Java",
       "isbn": "1933988797",
+      "price": "10.50",
       "pageCount": 265,
       "publishedDate": {
         "$date": "2010-10-15T00:00:00.000-0700"
@@ -114,6 +116,7 @@
       "_id": 9,
       "title": "Griffon in Action",
       "isbn": "1935182234",
+      "price": "20.95",
       "pageCount": 375,
       "publishedDate": {
         "$date": "2012-06-04T00:00:00.000-0700"
@@ -129,6 +132,7 @@
       "_id": 10,
       "title": "OSGi in Depth",
       "isbn": "193518217X",
+      "price": "27.99",
       "pageCount": 325,
       "publishedDate": {
         "$date": "2011-12-12T00:00:00.000-0800"
@@ -144,6 +148,7 @@
       "_id": 11,
       "title": "Flexible Rails",
       "isbn": "1933988509",
+      "price": "29.95",
       "pageCount": 592,
       "publishedDate": {
         "$date": "2008-01-01T00:00:00.000-0800"
@@ -159,6 +164,7 @@
       "_id": 13,
       "title": "Hello! Flex 4",
       "isbn": "1933988762",
+      "price":"20.95",
       "pageCount": 258,
       "publishedDate": {
         "$date": "2009-11-01T00:00:00.000-0700"
@@ -169,21 +175,6 @@
       "status": "PUBLISH",
       "authors": ["Peter Armstrong"],
       "categories": ["Internet"]
-    },
-    {
-      "_id": 14,
-      "title": "Coffeehouse",
-      "isbn": "1884777384",
-      "pageCount": 316,
-      "publishedDate": {
-        "$date": "1997-07-01T00:00:00.000-0700"
-      },
-      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/asher.jpg",
-      "shortDescription": "Coffeehouse is an anthology of stories, poems and essays originally published on the World Wide Web.",
-      "longDescription": "Coffeehouse is an anthology of stories, poems and essays originally published on the World Wide Web. The purpose is to capture the zeitgeist of the web's creative community, and to give readers a chance to enjoy some of the best and most notable original works that have appeared in this form. It showcases over forty individual web writers, among them Joseph Squier, Martha Conway, Jason Snell, David Alexander, Carl Steadman and Walter Miller. The intent is to show the variety and vitality of the web's blossoming literary \"scene,\" and to capture the unique and highly iconoclastic \"personality\" of the web community.",
-      "status": "PUBLISH",
-      "authors": ["Levi Asher", "Christian Crumlish"],
-      "categories": ["Miscellaneous"]
     }
   ]
 }
