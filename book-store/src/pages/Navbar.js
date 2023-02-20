@@ -1,5 +1,4 @@
 import styles from "@/styles/Navbar.module.css";
-import Image from "next/image";
 import React, { useState } from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -14,7 +13,7 @@ const Navbar = () => {
   return (
     <div className={styles.navbar}>
       <div className="logo">
-        <a href="/">
+        <a href="/Home">
           <img
             src="https://thumbs.dreamstime.com/b/open-book-logo-book-icon-white-background-open-book-logo-book-icon-simple-vector-logo-125217776.jpg"
             alt="Book Store"

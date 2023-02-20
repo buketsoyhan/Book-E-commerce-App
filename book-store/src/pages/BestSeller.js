@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-import Books from "../src/pages/api/amazon-books.json";
+import Books from "./api/amazon-books.json";
 import styles from "@/styles/BestSeller.module.css";
 
 export default function BestSeller() {
@@ -10,7 +10,7 @@ export default function BestSeller() {
     <div className={styles.main}>
       <div className={styles.heading}>
         <h2 className={styles.title}>Best Sellers</h2>
-        <Link href="/AllBestSellers"><h3 className={styles.viewer}>View All</h3></Link>
+        <Link href="/AllBestSellers"><h3 className={styles.viewer}>View All &#62;</h3></Link>
       </div>
       <div className={styles.card}>
         {data.map(

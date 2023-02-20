@@ -1,0 +1,74 @@
+.container{
+    background-color: white;
+}
+.main {
+    padding: 1rem;
+    width: 90%;
+    margin: auto;
+}
+
+.heading {
+    margin: 2rem;
+    width: 100%;
+    height: auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.heading .title{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.heading .viewer {
+    display: flex;
+    justify-content: end;
+    color: orange;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 10rem;
+    grid-row-gap: 3rem;
+}
+
+.card .book {
+    padding:2rem;
+    background-color: #F4F4FF;
+    border: 1px #090937  10% solid;
+    min-height:70%;
+}
+
+.card .book img{
+    margin-left: 17%;
+}
+
+.card .book .information {
+    margin-top:4rem;
+    margin-left: 0.8rem;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.card .book .title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #090937;
+}
+
+.card .book .author{
+    font-size: 16px;
+    color: rgba(9, 9, 55, 0.6);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.card .book .price{
+    color: darkblue;
+    font-size: 25px;
+    flex-wrap:nowrap;
+    bottom: 0;
+}
