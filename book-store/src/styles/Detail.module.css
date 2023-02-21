@@ -1,0 +1,134 @@
+.container {
+    background-color: white;
+    height: 100vh;
+}
+
+.main {
+    padding: 1rem;
+    width: 90%;
+    margin: auto;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.book {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.book .pictureArea {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+    gap: 20px;
+
+    width: 420px;
+    height: 570px;
+    left: 60px;
+    top: 224px;
+
+    background: #F4F4FF;
+    border: 1px solid rgba(9, 9, 55, 0.1);
+    border-radius: 4px;
+}
+
+.book .pictureArea .picture {
+    width: 300px;
+    height: 450px;
+
+    filter: drop-shadow(0px 4px 8px rgba(98, 81, 221, 0.2));
+    border-radius: 4px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.information {
+    margin-inline: 2rem;
+}
+
+.information .title {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 55px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.information .author {
+    margin-top: 1rem;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: rgba(0, 0, 0, 0.6);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.information .summary {
+    margin-top: 2rem;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #090937;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.information .description {
+    margin-top: 1rem;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: justify;
+    color: rgba(9, 9, 55, 0.6);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.button {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
+    float: right;
+    width: 400px;
+    height: 60px;
+    background: #EF6B4A;
+    border-radius: 4px;
+}
+
+.button .buttontxt {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
