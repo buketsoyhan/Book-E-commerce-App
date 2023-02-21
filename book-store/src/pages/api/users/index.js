@@ -8,7 +8,7 @@ export default async function handler(req, res) {
 
   switch (method) {
     case 'GET':
-        getUserByEmail(req, res);
+        // getUserByEmail(req, res);
       break;
     case 'POST':
       postUser(req, res);
