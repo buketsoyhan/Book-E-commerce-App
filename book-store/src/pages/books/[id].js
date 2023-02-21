@@ -4,22 +4,17 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import styles from "@/styles/Detail.module.css";
 import Navbar from "../Navbar";
-
 import Books from "../api/amazon-books.json";
 
 export default function BookDetail() {
   const [book, setBook] = useState({});
-
   const router = useRouter();
   const { id } = router.query;
 
   useEffect(() => {
     const data = Books.books;
-
     let bookData = data.find((books) => books._id == id);
     setBook(bookData);
-
-    console.log("boook data", bookData);
   }, [id]);
 
   return (
@@ -53,5 +48,3 @@ export default function BookDetail() {
     </div>
   );
 }
-
-//return <div>{book?.title} </div>;

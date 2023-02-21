@@ -2,7 +2,6 @@ import Users from "../model/userSchema";
 
 export async function getUserByEmail(req, res) {
   try {
-    console.log("REEQQQ",req.params);
     const users = await Users.findOne({
       email: req.body.email,
       password: req.body.password,
